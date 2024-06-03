@@ -4,30 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* 让容器的宽度和高度都充满全屏 */
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+        body{
+            background-color: pink;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .heart{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: relative;
+            transform: rotate(45deg);
+            animation: heartbit 1s alternate infinite;
+            box-shadow: 0 0 30px red;
+            border-radius: 0 0 3px 0;
+        }
+        .heart::before{
+            content: "";
+            width: 200px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            left: 0;
+            top: -99px;
+            border-radius: 100px 100px 0 0;
+            box-shadow: 0 0 30px red;
+        }
+        .heart::after{
+            content: "";
+            width: 100px;
+            height: 200px;
+            background-color: red;
+            position: absolute;
+            left: -99px;
+            top: 0;
+            border-radius: 100px 0 0 100px;
+            box-shadow: 0 0 30px red;
+        }
+
+        /* 实现动画 */
+        @keyframes heartbit{
+            0%{
+                transform: rotate(45deg) scale(0.4);
+            }
+            /* 25%{
+                transform: rotate(45deg) scale(0.8);
+            }
+            50%{
+                transform: rotate(45deg) scale(1);
+            }
+            75%{
+                transform: rotate(45deg) scale(1.2);
+            } */
+            100%{
+                transform: rotate(45deg) scale(1.1);
+            }
+        }
+        p{
+            position: fixed;
+            bottom: 0px;
+        }
+    </style>
 </head>
 <body>
-    <p>helloworld</p>
+    <div class="heart"></div>
+    <p>Work from Semicentric</p>
 </body>
 </html>
-
-
-<!--
-    配置用户信息
-    初始化本地仓库
-    工作区 暂存区 和版本库
-    查看历史版本
-
-    1.配置用户信息
-        git config --global user.name xxx
-        git config --global user.email xxxx.com
-    查看信息
-        git config --list
-
-    2.初始化本地仓库
-        git init 会在当前目录中创建一个名为 .git的隐藏目录
-    
-    3.工作区 暂存区 和版本库
-        存有代码的那个文件夹即为工作区
-        用git add 加文件名 即将其放入了暂存区 文件后边U标志变成A
-        git commit -m '注释'
--->
