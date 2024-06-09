@@ -1,0 +1,39 @@
+.ul1 , .ul2{
+    width: 1000px;
+    height: 200px;
+    border: 2px solid green;
+    position: absolute;
+    z-index: 5;
+    top: 300px;
+    left: 300px;
+}
+.ul2{
+    top: 550px;
+}
+ul li{
+    float: left;
+    top: 60px;
+    position: relative;
+    font-size: larger;
+    font-family: "微软雅黑";
+    color: aqua;
+}
+li a{
+    color: blueviolet;
+    font-size: 28px;
+}
+.l1{
+    left: 120px;
+}
+.l2{
+    left: 240px;
+}
+.l3{
+    left: 360px;
+}
+.l4{
+    left: 480px;
+}
+.l5{
+    left: 600px;
+}

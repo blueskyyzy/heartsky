@@ -1,0 +1,10 @@
+.Banner{
+    position: absolute;
+    top: 20px;
+    left: 700px;
+    font-size: 50px;
+    font-weight: lighter;
+    color: rgb(172, 41, 215);
+    font-family: "幼圆";
+    text-shadow: 2px 5px 6px red;
+}

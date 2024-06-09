@@ -1,0 +1,9 @@
+.box1{
+    /* position: absolute; */
+    /* width: 400px; */
+    height: 400px;
+    background-image: url("../图片文件/01.jpg");
+    background-repeat: repeat-x;
+    background-size: 250px;
+    background-position: 0 100%;
+}

@@ -1,0 +1,28 @@
+form input{
+    display:block;
+    margin: 10px;
+}
+.t1{
+    initial-value: asd;
+}
+.form{
+    position: absolute;
+    right: 200px;
+    top: 300px;
+}
+.bu1 , .bu2{
+    display:inline;
+}
+select{
+    position: relative;
+    left: 10px;
+}
+.bu3{
+    margin: 10px;
+}
+.t1,.t2,.t3,.t4,.bu1,.bu2,.bu3{
+    padding: 10px;
+    box-shadow: 0 0 5px gray;
+    border-radius: 30px;
+    border-color: pink;
+}

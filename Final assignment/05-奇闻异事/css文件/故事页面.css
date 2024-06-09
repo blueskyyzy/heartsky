@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 95%;
+    height: 95%;
+    border: 20px dotted pink;
+    position: absolute;
+    left: 15px;
+}
+.hp{
+    height: 2000px;
+}
+.jn{
+    height: 3000px;
+}
+.ss{
+    height: 1300px;
+}
+.return{
+    z-index: 10;
+}
+.container p{
+    padding: 180px;
+    font-size: 25px;
+    line-height: 45px;
+    font-family: cursive;
+}

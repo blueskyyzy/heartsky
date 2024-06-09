@@ -1,0 +1,22 @@
+.ul1, .ul2{
+    width: 1500px;
+    height: 600px;
+    border: 1px solid gray;
+    position: absolute;
+    top: 200px;
+    left: 70px;
+}
+.ul1 li, .ul2 li{
+    margin: 20px;
+    padding: 20px;
+}
+.ul2{
+    left: 800px;
+    border: 0;
+    width: 0;
+}
+p{
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}

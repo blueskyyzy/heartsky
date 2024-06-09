@@ -1,0 +1,30 @@
+.table{
+    width: 1500px;
+    height: 700px;
+    border: 1px solid greenyellow;
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    box-shadow: 0 0 10px green;
+}
+.table tr{
+    position: relative;
+    top: 10px;
+    margin: 20px;
+}
+.table td , .l3{
+    border: 1px solid green;
+    top: 10px;
+    left: 10px;
+    padding: 15px;
+    font-size: 20px;
+    width: 150px;
+    position: relative;
+    font-size: 17px;
+    font-family: "Microsoft JhengHei" ;
+    font-weight:600;
+    box-shadow: 5px 5px 10px gray;
+}
+.table .l3{
+    width: 500px;
+}

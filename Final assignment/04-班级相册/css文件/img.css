@@ -1,0 +1,40 @@
+img{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    box-shadow: 10px 0 30px rgba(32, 241, 63, 0.6);
+    border-radius: 50%;
+}
+.t01{
+    left: 130px;
+    top: 100px;
+    transform: rotate(-45deg);
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+.t02{
+    left: 600px;
+    top: 300px;
+    transform: rotate(3deg);
+    width: 400px;
+    height: 400px;
+}
+.t03{
+    right: 200px;
+    bottom: 2cm;
+    transform: rotate(15deg);
+}
+.t04{
+    left: 130px;
+    bottom: 90px;
+    transform: rotate(-45deg);
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+.t05{
+    right: 250px;
+    top: 100px;
+    transform: rotate(-25deg);
+}

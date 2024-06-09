@@ -1,0 +1,19 @@
+.text{
+    text-indent: 2cm;
+    position: relative;
+    top: 250px;
+    /* height: 900px; */
+    /* width: 1500px; */
+    line-height: 1.3cm;
+    font-size: 20px;
+    font-family: "幼圆";
+    font-weight: bold;
+    background-color: rgb(201, 235, 224);
+    border-radius: 50%;
+    border: 2px solid rgb(249, 134, 134);
+    border-bottom: 1px;
+    box-shadow: 0 0 50px rgba(86, 196, 233, 0.715);
+}
+/* p{
+    position: relative;
+} */

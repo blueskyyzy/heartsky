@@ -1,0 +1,44 @@
+.Chinese , .Math , .English{
+    width: 500px;
+    height: 700px;
+    border: 1px solid red;
+    position: absolute;
+    top: 200px;
+}
+.Chinese{
+    left: 50px;
+    background-color: rgba(191, 255, 0, 0.7);
+    border-radius: 5%;
+}
+.Math{
+    left: 580px;
+    background-color: rgba(255, 255, 0, 0.7);
+    border-radius: 5%;
+}
+.English{
+    right: 50px;
+    background-color: rgba(154, 221, 245, 0.7);
+    border-radius: 5%;
+}
+body h3{
+    position: relative;
+    left: 10px;
+    color: blueviolet;
+}
+.C{
+    position: relative;
+    margin: 10px;
+    font-size: 15px;
+    text-indent: 1cm;
+}
+.Math img{
+    width: 500px;
+    height: 630px;
+    border-radius: 5%;
+}
+.English .E{
+    position: relative;
+    margin: 10px;
+    font-family: "微软雅黑";
+    text-indent: 1cm;
+}

@@ -1,0 +1,17 @@
+.Logo{
+    font-size: 30px;
+    color: aqua;
+    position: absolute;
+    left: 30px;
+    top:10px;
+    font-weight: bold;
+}
+.Logo1{
+    font-size: 32px;
+}
+.Logo2{
+    position: absolute;
+    font-size:17px;
+    top: 50px;
+    font-style: oblique;
+}
